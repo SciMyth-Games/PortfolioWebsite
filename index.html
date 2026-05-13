@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TxnB VR & Tech — 3D Visualization, Virtual Reality & Interactive Walkthroughs for architects and developers. Mohali, Punjab.">
+  <title>TxnB VR & Tech — 3D Visualization & Virtual Reality Studio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+</head>
+<body>
+
+  <!-- PARTICLE BG -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="nav-brand">
+      <div class="brand-dot"></div>
+      <div class="brand-text">TxnB VR &amp; Tech — Mohali, Punjab</div>
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#why-us">Why Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <p class="hero-label hero-animate">3D Visualization · Virtual Reality · Interactive Walkthroughs</p>
+    <h1 class="hero-title hero-animate-delay">We build worlds<br>before you <span>build them.</span></h1>
+    <div class="gold-line hero-animate-delay" style="animation-delay:0.3s"></div>
+    <p class="hero-desc hero-animate-delay2">From blueprint to photorealistic 3D model — we help architects, developers, and real estate professionals sell properties before a single brick is laid. Complete VR tours with interactive lights, doors, lifts, staircases, and more.</p>
+    <div class="hero-badge hero-animate-delay3">
+      <i class="ti ti-school hero-badge-icon" aria-hidden="true"></i>
+      <span>Student-led studio · Fresh ideas · Cutting-edge tech</span>
+    </div>
+    <div class="hero-cta hero-animate-delay3">
+      <a href="#contact" class="btn-gold filled">Get a Quote</a>
+      <a href="#portfolio" class="btn-gold">View Our Work</a>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="section-label reveal">What we do</div>
+    <div class="service-grid">
+      <div class="service-card reveal reveal-delay-1">
+        <div class="s-num">01</div>
+        <div class="s-title">3D Architectural Modeling</div>
+        <div class="s-desc">Full 3D model of any building or construction — built from your blueprint or site photos.</div>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="s-num">02</div>
+        <div class="s-title">Cinematic Walkthrough</div>
+        <div class="s-desc">Smooth video tour through the full property — exterior, interior, every room and floor.</div>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <div class="s-num">03</div>
+        <div class="s-title">Full VR Experience</div>
+        <div class="s-desc">Open doors, switch lights, ride lifts, walk stairs — buyers step inside before it's built.</div>
+      </div>
+      <div class="service-card reveal reveal-delay-4">
+        <div class="s-num">04</div>
+        <div class="s-title">Garden &amp; Landscape</div>
+        <div class="s-desc">Outdoor spaces — gardens, pools, driveways — visualized in full photorealistic 3D detail.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO / SHOWCASE -->
+  <section class="section" id="portfolio">
+    <div class="section-label reveal">Our Work</div>
+    <h2 class="section-title reveal">Featured <span style="color:var(--gold)">Projects</span></h2>
+    <p class="section-desc reveal">Screenshots and video walkthroughs of our completed projects. Each piece represents hours of meticulous 3D craftsmanship.</p>
+
+    <div class="portfolio-grid">
+
+      <!-- Project 1 -->
+      <div class="portfolio-card reveal reveal-delay-1">
+        <div class="portfolio-thumb">
+          <div class="portfolio-thumb-placeholder">
+            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+            <span>Screenshot Coming Soon</span>
+          </div>
+        </div>
+        <div class="portfolio-info">
+          <div class="portfolio-cat">Residential · 3D + VR</div>
+          <h3 class="portfolio-title">Project Title</h3>
+          <p class="portfolio-desc">Project description will go here — showcasing the 3D model, walkthrough, and VR experience.</p>
+          <div class="portfolio-actions">
+            <a href="#" class="portfolio-btn video">▶ Watch Video</a>
+            <a href="#" class="portfolio-btn">View Details</a>
+          </div>
+        </div>
+        <div class="screenshot-grid">
+          <div class="screenshot-slot">Screenshot 1</div>
+          <div class="screenshot-slot">Screenshot 2</div>
+          <div class="screenshot-slot">Screenshot 3</div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="portfolio-card reveal reveal-delay-2">
+        <div class="portfolio-thumb">
+          <div class="portfolio-thumb-placeholder">
+            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+            <span>Screenshot Coming Soon</span>
+          </div>
+        </div>
+        <div class="portfolio-info">
+          <div class="portfolio-cat">Commercial · Walkthrough</div>
+          <h3 class="portfolio-title">Project Title</h3>
+          <p class="portfolio-desc">Project description will go here — showcasing the cinematic walkthrough and exterior visualization.</p>
+          <div class="portfolio-actions">
+            <a href="#" class="portfolio-btn video">▶ Watch Video</a>
+            <a href="#" class="portfolio-btn">View Details</a>
+          </div>
+        </div>
+        <div class="screenshot-grid">
+          <div class="screenshot-slot">Screenshot 1</div>
+          <div class="screenshot-slot">Screenshot 2</div>
+          <div class="screenshot-slot">Screenshot 3</div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="portfolio-card reveal reveal-delay-3">
+        <div class="portfolio-thumb">
+          <div class="portfolio-thumb-placeholder">
+            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+            <span>Screenshot Coming Soon</span>
+          </div>
+        </div>
+        <div class="portfolio-info">
+          <div class="portfolio-cat">Garden · Landscape</div>
+          <h3 class="portfolio-title">Project Title</h3>
+          <p class="portfolio-desc">Project description will go here — showcasing garden and landscape 3D visualization.</p>
+          <div class="portfolio-actions">
+            <a href="#" class="portfolio-btn video">▶ Watch Video</a>
+            <a href="#" class="portfolio-btn">View Details</a>
+          </div>
+        </div>
+        <div class="screenshot-grid">
+          <div class="screenshot-slot">Screenshot 1</div>
+          <div class="screenshot-slot">Screenshot 2</div>
+          <div class="screenshot-slot">Screenshot 3</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Video Embed Placeholder -->
+    <div style="margin-top:40px;">
+      <div class="section-label reveal">Featured Video</div>
+      <div class="video-container reveal">
+        <div class="video-placeholder">
+          <svg viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          <span>YouTube Video Embed</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section" id="process">
+    <div class="section-label reveal">What goes into every project</div>
+    <p class="section-desc reveal">A lot of people see a 3D render or VR tour and think it's just a video. <span>It isn't.</span> Every project we deliver is built entirely from scratch — every wall, every surface, every light source is individually crafted.</p>
+    <div class="process-grid">
+      <div class="process-card reveal reveal-delay-1">
+        <div class="p-step">Step 01</div>
+        <div class="p-title">Blueprint Study</div>
+        <div class="p-desc">We study every dimension, wall, opening, and floor plan in detail before touching the software.</div>
+      </div>
+      <div class="process-card reveal reveal-delay-2">
+        <div class="p-step">Step 02</div>
+        <div class="p-title">3D Modeling</div>
+        <div class="p-desc">Every single wall, column, window, door, staircase, and surface is built by hand in 3D — vertex by vertex.</div>
+      </div>
+      <div class="process-card reveal reveal-delay-3">
+        <div class="p-step">Step 03</div>
+        <div class="p-title">Materials &amp; Textures</div>
+        <div class="p-desc">Marble, wood, concrete, glass — each material is applied and tuned to look exactly like the real thing.</div>
+      </div>
+      <div class="process-card reveal reveal-delay-1">
+        <div class="p-step">Step 04</div>
+        <div class="p-title">Lighting Setup</div>
+        <div class="p-desc">Sunlight, shadows, interior lamps — realistic lighting that changes how the entire space feels.</div>
+      </div>
+      <div class="process-card reveal reveal-delay-2">
+        <div class="p-step">Step 05</div>
+        <div class="p-title">VR Programming</div>
+        <div class="p-desc">For interactive projects, every door hinge, light switch, and lift button is individually coded and tested.</div>
+      </div>
+      <div class="process-card reveal reveal-delay-3">
+        <div class="p-step">Step 06</div>
+        <div class="p-title">Render &amp; Export</div>
+        <div class="p-desc">Final rendering can take hours of processing time per scene to achieve photorealistic quality.</div>
+      </div>
+    </div>
+    <div class="value-close reveal">
+      <strong>The honest truth:</strong> what you receive in 7 days represents 50–100+ hours of skilled technical work. A professional 3D studio in Delhi or Mumbai charges ₹3–5 lakh for the same output. Our pricing reflects our genuine effort — not a shortcut.
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section" id="pricing">
+    <div class="section-label reveal">Investment</div>
+    <div class="price-grid">
+      <div class="price-card reveal reveal-delay-1">
+        <div class="pc-name">Standard</div>
+        <div class="pc-price">₹60,000</div>
+        <div class="pc-note">3D model + cinematic walkthrough video</div>
+        <ul class="pc-features">
+          <li>Full 3D model from blueprint</li>
+          <li>Exterior + interior walkthrough</li>
+          <li>HD + 4K video output</li>
+          <li>Day &amp; night lighting</li>
+          <li>Background music included</li>
+          <li>5 revision rounds</li>
+          <li>Delivered in 7 days</li>
+        </ul>
+      </div>
+      <div class="price-card featured reveal reveal-delay-2">
+        <div class="feat-badge">Premium</div>
+        <div class="pc-name">Full VR Interactive</div>
+        <div class="pc-price">₹1,10,000</div>
+        <div class="pc-note">3D model + walkthrough + VR interactivity</div>
+        <ul class="pc-features">
+          <li>Everything in Standard</li>
+          <li>Interactive doors, lights, lifts</li>
+          <li>VR headset + web + mobile</li>
+          <li>Shareable link for buyers</li>
+          <li>Multiple floors supported</li>
+          <li>Unlimited revisions</li>
+          <li>Delivered in 10–14 days</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="addon-row reveal"><span class="addon-label">Add-on: Extra still renders (10 images)</span><span class="addon-price">+ ₹5,000</span></div>
+    <div class="addon-row reveal"><span class="addon-label">Add-on: Garden &amp; landscape visualization</span><span class="addon-price">+ ₹20,000</span></div>
+    <div class="addon-row reveal"><span class="addon-label">Add-on: Custom assets (see below)</span><span class="addon-price">Quoted separately</span></div>
+
+    <div class="pricing-note reveal">
+      <p><strong>50% advance, 50% on delivery.</strong> Custom quotes for large housing projects, commercial complexes, or multi-unit builders. Share your blueprint — we respond within 2 hours.</p>
+    </div>
+  </section>
+
+  <!-- CUSTOM ASSETS -->
+  <section class="section" id="custom">
+    <div class="section-label reveal">Custom assets — priced separately</div>
+    <p class="section-desc reveal">Every project includes standard architectural elements. But sometimes a client wants something <span>uniquely theirs.</span> Custom assets are 3D objects built entirely from scratch to match a specific real-world product, brand, or design.</p>
+    <div class="custom-grid">
+      <div class="custom-card reveal reveal-delay-1">
+        <div class="cc-icon"><i class="ti ti-sofa" aria-hidden="true"></i></div>
+        <div class="cc-title">Branded Furniture</div>
+        <div class="cc-desc">A specific sofa model, custom bed design, or branded showroom furniture built to exact dimensions.</div>
+        <div class="cc-price">₹3,000 – ₹8,000 per item</div>
+      </div>
+      <div class="custom-card reveal reveal-delay-2">
+        <div class="cc-icon"><i class="ti ti-building-store" aria-hidden="true"></i></div>
+        <div class="cc-title">Signage &amp; Branding</div>
+        <div class="cc-desc">Custom 3D logo signs, brand boards, or named hoardings placed precisely on the building exterior.</div>
+        <div class="cc-price">₹2,000 – ₹5,000 per element</div>
+      </div>
+      <div class="custom-card reveal reveal-delay-3">
+        <div class="cc-icon"><i class="ti ti-ripple" aria-hidden="true"></i></div>
+        <div class="cc-title">Unique Structures</div>
+        <div class="cc-desc">Custom fountains, sculptural elements, pergolas, arches, or any non-standard architectural feature.</div>
+        <div class="cc-price">₹5,000 – ₹15,000 per item</div>
+      </div>
+      <div class="custom-card reveal reveal-delay-4">
+        <div class="cc-icon"><i class="ti ti-car" aria-hidden="true"></i></div>
+        <div class="cc-title">Vehicles &amp; Props</div>
+        <div class="cc-desc">Specific car models, branded vehicles, or detailed environment props not in our standard library.</div>
+        <div class="cc-price">₹4,000 – ₹10,000 per item</div>
+      </div>
+    </div>
+    <div class="custom-note reveal">
+      <strong>Why does this cost extra?</strong> Standard projects use a professional library of pre-built 3D assets for common objects. A custom asset means our team manually models that specific object from scratch — studying reference images, building every curve and edge by hand, applying textures, and integrating it into your scene perfectly. A single complex custom asset can take 6–12 hours of focused work alone. We always inform you and get approval before any custom asset work begins — <strong>no surprises on your bill.</strong>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="section" id="why-us">
+    <div class="section-label reveal">Why work with us</div>
+    <div class="why-grid">
+      <div class="why-item reveal reveal-delay-1">
+        <div class="w-icon"><i class="ti ti-clock" aria-hidden="true"></i></div>
+        <div class="w-title">Fast Turnaround</div>
+        <div class="w-desc">Standard projects in 7 days. Full VR in 10–14 days. We don't keep you waiting.</div>
+      </div>
+      <div class="why-item reveal reveal-delay-2">
+        <div class="w-icon"><i class="ti ti-file-description" aria-hidden="true"></i></div>
+        <div class="w-title">Blueprint to Reality</div>
+        <div class="w-desc">Just share your blueprint — we handle everything. No site visits needed.</div>
+      </div>
+      <div class="why-item reveal reveal-delay-3">
+        <div class="w-icon"><i class="ti ti-device-desktop" aria-hidden="true"></i></div>
+        <div class="w-title">Sell Before You Build</div>
+        <div class="w-desc">Give buyers a real experience of unbuilt spaces — dramatically increasing conversions.</div>
+      </div>
+      <div class="why-item reveal reveal-delay-4">
+        <div class="w-icon"><i class="ti ti-currency-rupee" aria-hidden="true"></i></div>
+        <div class="w-title">Honest Pricing</div>
+        <div class="w-desc">No agency markup. No hidden costs. Quality work at a price that makes sense.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="section" id="team">
+    <div class="section-label reveal">Who we are</div>
+    <p class="team-text reveal">We are a <span>student-led creative tech studio</span> from Mohali, passionate about pushing the boundaries of 3D visualization and virtual reality. We bring fresh thinking, cutting-edge tools, and genuine dedication to every project — with none of the overhead of large agencies. You get <span>agency-level output at honest pricing,</span> delivered fast.</p>
+  </section>
+
+  <!-- CTA -->
+  <section class="section" id="contact" style="border-bottom:none;">
+    <div class="cta-box reveal">
+      <h2 class="cta-title">Let's visualize your next project.</h2>
+      <p class="cta-sub">Share your blueprint or site photos — we'll send you a quote within 2 hours.</p>
+      <div class="contact-row">
+        <a href="https://wa.me/" class="contact-item" target="_blank"><i class="ti ti-brand-whatsapp" aria-hidden="true"></i> WhatsApp us now</a>
+        <a href="mailto:txnbvr@gmail.com" class="contact-item"><i class="ti ti-mail" aria-hidden="true"></i> txnbvr@gmail.com</a>
+        <span class="contact-item"><i class="ti ti-map-pin" aria-hidden="true"></i> Mohali, Punjab</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="f-brand">TxnB VR &amp; Tech</div>
+    <div class="f-loc">Mohali · Punjab · India</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
