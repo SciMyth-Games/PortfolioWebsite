@@ -82,10 +82,43 @@
     <h2 class="section-title reveal">Featured <span style="color:var(--gold)">Projects</span></h2>
     <p class="section-desc reveal">Screenshots and video walkthroughs of our completed projects. Each piece represents hours of meticulous 3D craftsmanship.</p>
 
+    <!-- Portfolio Category Panels -->
+    <div class="portfolio-panels reveal">
+      
+      <!-- Panel 1: Real Estate -->
+      <div class="category-panel active" data-target="real-estate">
+        <div class="panel-icon">
+          <i class="ti ti-building-skyscraper" aria-hidden="true"></i>
+        </div>
+        <div class="panel-content">
+          <h3 class="panel-title">Real Estate</h3>
+          <p class="panel-desc">Apartments, villas, and residential layouts brought to life with photorealistic detailing and interactive walkthroughs.</p>
+        </div>
+        <div class="panel-arrow">
+          <i class="ti ti-chevron-down" aria-hidden="true"></i>
+        </div>
+      </div>
+
+      <!-- Panel 2: 3D Environments -->
+      <div class="category-panel" data-target="environments">
+        <div class="panel-icon">
+          <i class="ti ti-world-latitude" aria-hidden="true"></i>
+        </div>
+        <div class="panel-content">
+          <h3 class="panel-title">3D Environments</h3>
+          <p class="panel-desc">Custom virtual environments, nature landscapes, and detailed digital worlds built entirely from reference or concepts.</p>
+        </div>
+        <div class="panel-arrow">
+          <i class="ti ti-chevron-down" aria-hidden="true"></i>
+        </div>
+      </div>
+
+    </div>
+
     <div class="portfolio-grid">
 
       <!-- Project 1: Apartments -->
-      <div class="portfolio-card reveal reveal-delay-1">
+      <div class="portfolio-card reveal reveal-delay-1" data-category="real-estate">
         <div class="portfolio-thumb">
           <img src="Projects/Apartments/WhatsApp Image 2026-05-14 at 12.52.01 PM.jpeg" alt="Apartments — Modern Exterior Facade" class="portfolio-img">
         </div>
@@ -94,7 +127,7 @@
           <h3 class="portfolio-title">Apartments</h3>
           <p class="portfolio-desc">A premium residential complex visualization. Featuring high-fidelity exterior rendering, detailed material mapping, and immersive space configuration optimized for virtual interactive walkthroughs.</p>
           <div class="portfolio-actions">
-            <a href="#walkthrough-1" class="portfolio-btn video">▶ Watch Walkthrough</a>
+            <a href="#" class="portfolio-btn video" data-video-id="I4QhcTyPQ4I">▶ Watch Walkthrough</a>
             <a href="#contact" class="portfolio-btn">✉ Enquire Now</a>
           </div>
         </div>
@@ -121,7 +154,7 @@
       </div>
 
       <!-- Project 2: Villa -->
-      <div class="portfolio-card reveal reveal-delay-2">
+      <div class="portfolio-card reveal reveal-delay-2" data-category="real-estate">
         <div class="portfolio-thumb">
           <img src="Projects/Villa/WhatsApp Image 2026-05-24 at 7.10.32 PM.jpeg" alt="Villa — Luxury Exterior Design" class="portfolio-img">
         </div>
@@ -130,7 +163,7 @@
           <h3 class="portfolio-title">Villa</h3>
           <p class="portfolio-desc">An architecturally sophisticated multi-level villa. Showcasing premium natural stone finishes, expansive custom glazing, professional lighting design, and photorealistic landscape integration.</p>
           <div class="portfolio-actions">
-            <a href="#walkthrough-2" class="portfolio-btn video">▶ Watch Walkthrough</a>
+            <a href="#" class="portfolio-btn video" data-video-id="bj3I8PCXOU0">▶ Watch Walkthrough</a>
             <a href="#contact" class="portfolio-btn">✉ Enquire Now</a>
           </div>
         </div>
@@ -153,53 +186,24 @@
         </div>
       </div>
 
-    </div>
-
-    <!-- Featured Videos -->
-    <div class="video-showcase reveal" style="margin-top:56px;">
-      <div class="section-label">Featured Walkthroughs</div>
-      <h3 class="video-showcase-title">See Our Work in Action</h3>
-      <p class="video-showcase-desc">Watch our cinematic walkthroughs — every room, every angle, every detail brought to life in photorealistic 3D.</p>
-      <div class="video-grid">
-
-        <!-- Video 1 -->
-        <div class="video-frame" id="walkthrough-1">
-          <div class="video-frame-header">
-            <div class="video-frame-dots">
-              <span></span><span></span><span></span>
-            </div>
-            <div class="video-frame-label"><i class="ti ti-player-play" aria-hidden="true"></i> Walkthrough 01 — Apartments</div>
-          </div>
-          <div class="video-container">
-            <iframe
-              src="https://www.youtube.com/embed/bj3I8PCXOU0?rel=0&modestbranding=1&color=white"
-              title="TxnB VR — 3D Architectural Walkthrough 01"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen>
-            </iframe>
+      <!-- Project 3: Environments Placeholder -->
+      <div class="portfolio-card" data-category="environments" style="display: none;">
+        <div class="portfolio-thumb">
+          <div class="portfolio-thumb-placeholder">
+            <i class="ti ti-world-latitude" style="font-size: 32px; color: var(--gold); opacity: 0.8; margin-bottom: 8px;"></i>
+            <span>Projects Coming Soon</span>
           </div>
         </div>
-
-        <!-- Video 2 -->
-        <div class="video-frame" id="walkthrough-2">
-          <div class="video-frame-header">
-            <div class="video-frame-dots">
-              <span></span><span></span><span></span>
-            </div>
-            <div class="video-frame-label"><i class="ti ti-player-play" aria-hidden="true"></i> Walkthrough 02 — Villa</div>
-          </div>
-          <div class="video-container">
-            <iframe
-              src="https://www.youtube.com/embed/I4QhcTyPQ4I?rel=0&modestbranding=1&color=white"
-              title="TxnB VR — 3D Architectural Walkthrough 02"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen>
-            </iframe>
+        <div class="portfolio-info">
+          <div class="portfolio-cat">Environment Design · Virtual Worlds</div>
+          <h3 class="portfolio-title">Custom 3D Environments</h3>
+          <p class="portfolio-desc">We model custom game environments, natural landscapes, and digital worlds from reference models or concepts. Project renders and VR environments are currently in progress.</p>
+          <div class="portfolio-actions">
+            <a href="#contact" class="portfolio-btn">✉ Request Custom Environment</a>
           </div>
         </div>
-
-
       </div>
+
     </div>
   </section>
 
@@ -309,6 +313,16 @@
       <div id="lightbox-caption" class="lightbox-caption"></div>
     </div>
     <button class="lightbox-btn lightbox-next" aria-label="Next image">&#10095;</button>
+  </div>
+
+  <!-- VIDEO OVERLAY MODAL -->
+  <div id="video-modal" class="video-modal">
+    <span class="video-modal-close">&times;</span>
+    <div class="video-modal-content">
+      <div class="video-modal-container">
+        <iframe id="modal-iframe" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
   </div>
 
   <script src="script.js"></script>

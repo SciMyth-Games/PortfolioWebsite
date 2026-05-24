@@ -72,6 +72,35 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // ── Portfolio Filtering (Panels) ──
+  const categoryPanels = document.querySelectorAll('.category-panel');
+  const portfolioCards = document.querySelectorAll('.portfolio-card');
+
+  categoryPanels.forEach(panel => {
+    panel.addEventListener('click', () => {
+      // Toggle active class on panels
+      categoryPanels.forEach(p => p.classList.remove('active'));
+      panel.classList.add('active');
+
+      const target = panel.getAttribute('data-target');
+
+      // Filter cards
+      portfolioCards.forEach(card => {
+        const cat = card.getAttribute('data-category');
+        if (cat === target) {
+          card.style.display = 'block';
+          // Force a reflow to make transition work
+          void card.offsetWidth;
+          card.classList.add('visible'); // Add scroll reveal visibility class
+          card.style.opacity = '1';
+        } else {
+          card.style.display = 'none';
+          card.style.opacity = '0';
+        }
+      });
+    });
+  });
+
   // ── Lightbox Gallery ──
   const lightbox = document.getElementById('lightbox');
   const lightboxImg = document.getElementById('lightbox-img');
@@ -143,8 +172,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Keyboard navigation
   document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeLightbox();
+      closeVideoModal();
+    }
     if (!lightbox || !lightbox.classList.contains('open')) return;
-    if (e.key === 'Escape') closeLightbox();
     if (e.key === 'ArrowLeft') {
       currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
       updateLightbox();
@@ -154,4 +186,41 @@ document.addEventListener('DOMContentLoaded', () => {
       updateLightbox();
     }
   });
+
+  // ── Video Walkthrough Modal ──
+  const videoModal = document.getElementById('video-modal');
+  const modalIframe = document.getElementById('modal-iframe');
+  const videoCloseBtn = document.querySelector('.video-modal-close');
+
+  const openVideoModal = (videoId) => {
+    if (!videoModal || !modalIframe) return;
+    modalIframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&color=white`;
+    videoModal.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  };
+
+  const closeVideoModal = () => {
+    if (!videoModal || !modalIframe) return;
+    videoModal.classList.remove('open');
+    modalIframe.src = '';
+    document.body.style.overflow = '';
+  };
+
+  document.querySelectorAll('.portfolio-btn.video').forEach(btn => {
+    const videoId = btn.getAttribute('data-video-id');
+    if (videoId) {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        openVideoModal(videoId);
+      });
+    }
+  });
+
+  if (videoCloseBtn) videoCloseBtn.addEventListener('click', closeVideoModal);
+
+  if (videoModal) {
+    videoModal.addEventListener('click', (e) => {
+      if (e.target === videoModal) closeVideoModal();
+    });
+  }
 });
