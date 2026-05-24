@@ -186,14 +186,18 @@ document.addEventListener('DOMContentLoaded', () => {
       updateLightbox();
     }
   });
-
   // ── Video Walkthrough Modal ──
   const videoModal = document.getElementById('video-modal');
   const modalIframe = document.getElementById('modal-iframe');
   const videoCloseBtn = document.querySelector('.video-modal-close');
 
-  const openVideoModal = (videoId) => {
+  const openVideoModal = (videoId, isShort = false) => {
     if (!videoModal || !modalIframe) return;
+    if (isShort) {
+      videoModal.classList.add('is-short');
+    } else {
+      videoModal.classList.remove('is-short');
+    }
     modalIframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&color=white`;
     videoModal.classList.add('open');
     document.body.style.overflow = 'hidden';
@@ -202,20 +206,21 @@ document.addEventListener('DOMContentLoaded', () => {
   const closeVideoModal = () => {
     if (!videoModal || !modalIframe) return;
     videoModal.classList.remove('open');
+    videoModal.classList.remove('is-short');
     modalIframe.src = '';
     document.body.style.overflow = '';
   };
 
   document.querySelectorAll('.portfolio-btn.video').forEach(btn => {
     const videoId = btn.getAttribute('data-video-id');
+    const isShort = btn.getAttribute('data-is-short') === 'true';
     if (videoId) {
       btn.addEventListener('click', (e) => {
         e.preventDefault();
-        openVideoModal(videoId);
+        openVideoModal(videoId, isShort);
       });
     }
   });
-
   if (videoCloseBtn) videoCloseBtn.addEventListener('click', closeVideoModal);
 
   if (videoModal) {

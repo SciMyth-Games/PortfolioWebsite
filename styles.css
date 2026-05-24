@@ -756,5 +756,14 @@ body{
   }
 }
 
+/* Vertical layout for YouTube Shorts */
+.video-modal.is-short .video-modal-content {
+  max-width: 420px;
+  aspect-ratio: 9/16;
+  width: 88vw;
+  height: 80vh;
+}
+
+
 
 
