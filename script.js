@@ -60,5 +60,98 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('scroll', updateNav, { passive: true }); updateNav();
 
   // ── Smooth Scroll ──
-  navItems.forEach(link => link.addEventListener('click', e => { const t = document.querySelector(link.getAttribute('href')); if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth' }); } }));
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener('click', e => {
+      const targetId = link.getAttribute('href');
+      if (targetId === '#') return;
+      const t = document.querySelector(targetId);
+      if (t) {
+        e.preventDefault();
+        t.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+
+  // ── Lightbox Gallery ──
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const lightboxCaption = document.getElementById('lightbox-caption');
+  const closeBtn = document.querySelector('.lightbox-close');
+  const prevBtn = document.querySelector('.lightbox-prev');
+  const nextBtn = document.querySelector('.lightbox-next');
+
+  let currentImages = [];
+  let currentIndex = 0;
+
+  const openLightbox = (imagesList, index) => {
+    currentImages = imagesList;
+    currentIndex = index;
+    updateLightbox();
+    if (lightbox) {
+      lightbox.classList.add('open');
+      document.body.style.overflow = 'hidden'; // Prevents background scroll
+    }
+  };
+
+  const updateLightbox = () => {
+    if (!lightboxImg || !currentImages[currentIndex]) return;
+    const src = currentImages[currentIndex].getAttribute('src');
+    const alt = currentImages[currentIndex].getAttribute('alt') || 'Project Image';
+    lightboxImg.src = src;
+    if (lightboxCaption) lightboxCaption.textContent = alt;
+  };
+
+  const closeLightbox = () => {
+    if (lightbox) {
+      lightbox.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+  };
+
+  // Setup click listeners for each portfolio card
+  document.querySelectorAll('.portfolio-card').forEach(card => {
+    // Find all images within this card (thumbnail + screenshots)
+    const images = Array.from(card.querySelectorAll('img'));
+    
+    images.forEach((img, idx) => {
+      img.addEventListener('click', () => {
+        openLightbox(images, idx);
+      });
+    });
+  });
+
+  if (closeBtn) closeBtn.addEventListener('click', closeLightbox);
+  
+  if (prevBtn) prevBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
+    updateLightbox();
+  });
+
+  if (nextBtn) nextBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    currentIndex = (currentIndex + 1) % currentImages.length;
+    updateLightbox();
+  });
+
+  // Close lightbox on clicking outside the image
+  if (lightbox) {
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox || e.target.classList.contains('lightbox-content')) closeLightbox();
+    });
+  }
+
+  // Keyboard navigation
+  document.addEventListener('keydown', (e) => {
+    if (!lightbox || !lightbox.classList.contains('open')) return;
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') {
+      currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
+      updateLightbox();
+    }
+    if (e.key === 'ArrowRight') {
+      currentIndex = (currentIndex + 1) % currentImages.length;
+      updateLightbox();
+    }
+  });
 });
