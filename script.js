@@ -189,25 +189,56 @@ document.addEventListener('DOMContentLoaded', () => {
   // ── Video Walkthrough Modal ──
   const videoModal = document.getElementById('video-modal');
   const modalIframe = document.getElementById('modal-iframe');
+  const modalVideo = document.getElementById('modal-video');
   const videoCloseBtn = document.querySelector('.video-modal-close');
 
-  const openVideoModal = (videoId, isShort = false) => {
-    if (!videoModal || !modalIframe) return;
+  const openVideoModal = (videoSrc, isShort = false) => {
+    if (!videoModal) return;
     if (isShort) {
       videoModal.classList.add('is-short');
     } else {
       videoModal.classList.remove('is-short');
     }
-    modalIframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&color=white`;
+
+    const isLocal = videoSrc.endsWith('.mp4') || videoSrc.startsWith('Projects/');
+    if (isLocal) {
+      if (modalIframe) {
+        modalIframe.style.display = 'none';
+        modalIframe.src = '';
+      }
+      if (modalVideo) {
+        modalVideo.src = videoSrc;
+        modalVideo.style.display = 'block';
+        modalVideo.play().catch(err => console.log('Autoplay blocked:', err));
+      }
+    } else {
+      if (modalVideo) {
+        modalVideo.style.display = 'none';
+        modalVideo.src = '';
+      }
+      if (modalIframe) {
+        modalIframe.src = `https://www.youtube.com/embed/${videoSrc}?autoplay=1&rel=0&modestbranding=1&color=white`;
+        modalIframe.style.display = 'block';
+      }
+    }
+
     videoModal.classList.add('open');
     document.body.style.overflow = 'hidden';
   };
 
   const closeVideoModal = () => {
-    if (!videoModal || !modalIframe) return;
+    if (!videoModal) return;
     videoModal.classList.remove('open');
     videoModal.classList.remove('is-short');
-    modalIframe.src = '';
+    if (modalIframe) {
+      modalIframe.src = '';
+      modalIframe.style.display = 'none';
+    }
+    if (modalVideo) {
+      modalVideo.pause();
+      modalVideo.src = '';
+      modalVideo.style.display = 'none';
+    }
     document.body.style.overflow = '';
   };
 
