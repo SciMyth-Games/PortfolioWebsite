@@ -1,0 +1,74 @@
+{
+  "id": 226691501,
+  "title": "Portfolio",
+  "styles": {
+    "project": [
+      "project/popup.css"
+    ],
+    "inline": [
+      "#project-modules .title { color: #191919;font-family: helvetica,arial,sans-serif;font-size: 36px;font-style: normal;font-weight: bold;line-height: 1.1em;text-align: left;text-decoration: none; }\r\n#project-modules .sub-title { color: #a4a4a4;font-family: helvetica,arial,sans-serif;font-size: 20px;font-style: normal;font-weight: normal;line-height: 1.4em;text-align: left;text-decoration: none; }\r\n#project-modules .editor-text .main-text, #primary-project-content.project-styles .main-text { color: #696969;font-family: helvetica,arial,sans-serif;font-size: 20px;font-style: normal;font-weight: normal;line-height: 1.4em;text-align: left;text-decoration: none; }\r\n#project-modules .caption, #project-modules .caption-text-wrap { color: #a4a4a4;font-family: helvetica,arial,sans-serif;font-size: 14px;font-style: italic;font-weight: normal;line-height: 1.4em;text-align: left;text-decoration: none; }\r\n#project-modules .caption-text-wrap a { font-size: 14px !important; }\r\n#project-modules .main-text a { color: #1769FF;text-align: left;text-decoration: none; }\r\n#primary-project-content .module { padding-bottom: 0px; }\r\n#primary-project-content { padding-top: 0px; background-color: #FFFFFF;  }\r\n.spacer { height: 60px; }.divider { display: none; }.module.last .divider { display: none; }"
+    ]
+  },
+  "view": {
+    "site": {
+      "vite_enabled": false,
+      "body_classes": [],
+      "partial_user": false,
+      "footer": [],
+      "link": {
+        "image_src": "https://mir-s3-cdn-cf.behance.net/projects/202/394626226691501.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png"
+      },
+      "styles": {
+        "project": [
+          "project/popup.css"
+        ],
+        "inline": [
+          "#project-modules .title { color: #191919;font-family: helvetica,arial,sans-serif;font-size: 36px;font-style: normal;font-weight: bold;line-height: 1.1em;text-align: left;text-decoration: none; }\r\n#project-modules .sub-title { color: #a4a4a4;font-family: helvetica,arial,sans-serif;font-size: 20px;font-style: normal;font-weight: normal;line-height: 1.4em;text-align: left;text-decoration: none; }\r\n#project-modules .editor-text .main-text, #primary-project-content.project-styles .main-text { color: #696969;font-family: helvetica,arial,sans-serif;font-size: 20px;font-style: normal;font-weight: normal;line-height: 1.4em;text-align: left;text-decoration: none; }\r\n#project-modules .caption, #project-modules .caption-text-wrap { color: #a4a4a4;font-family: helvetica,arial,sans-serif;font-size: 14px;font-style: italic;font-weight: normal;line-height: 1.4em;text-align: left;text-decoration: none; }\r\n#project-modules .caption-text-wrap a { font-size: 14px !important; }\r\n#project-modules .main-text a { color: #1769FF;text-align: left;text-decoration: none; }\r\n#primary-project-content .module { padding-bottom: 0px; }\r\n#primary-project-content { padding-top: 0px; background-color: #FFFFFF;  }\r\n.spacer { height: 60px; }.divider { display: none; }.module.last .divider { display: none; }"
+        ]
+      },
+      "head_attributes": {
+        "prefix": "og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# : http://ogp.me/ns/fb/#"
+      },
+      "meta": {
+        "keywords": "Graphic Design, Illustration, Interaction Design",
+        "description": "Graphic Design, Illustration, Interaction Design",
+        "robots": "noindex, nofollow"
+      },
+      "fb_meta": {
+        "og:title": "Portfolio - Harsh Kumar",
+        "og:url": "https://www.behance.net/gallery/226691501/Portfolio",
+        "og:owners": "Harsh Kumar",
+        "og:site_name": "Behance",
+        "og:type": ":project",
+        "fb:app_id": "229702757350",
+        "og:image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/411ae7226691501.68332d7289114.png",
+        "og:image:width": 1400,
+        "og:image:height": 788
+      },
+      "tw_meta": {
+        "twitter:card": "summary_large_image",
+        "twitter:site": "@behance",
+        "twitter:title": "Portfolio - Harsh Kumar",
+        "twitter:description": "Portfolio",
+        "twitter:app:id:iphone": 489667151,
+        "twitter:app:url:iphone": "behance://project/226691501",
+        "twitter:app:name:iphone": "Behance",
+        "twitter:image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/411ae7226691501.68332d7289114.png"
+      },
+      "oembed": "https://www.behance.net/services/oembed?url=https%3A%2F%2Fwww.behance.net%2Fgallery%2F226691501%2FPortfolio"
+    },
+    "script_nonce": "",
+    "cache_buster_str": "cb=264615658",
+    "site_title": "Portfolio",
+    "feature_teams": true,
+    "page_variables": {
+      "config": {
+        "PAGE_NAME": "gallery"
+      }
+    },
+    "cb_string": "?cb=264615658",
+    "is_iframe": false
+  },
+  "admin": null,
+  "share_config": []
+}
