@@ -35,10 +35,15 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ── Scroll Reveal ──
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
-  }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
-  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  if (window.IntersectionObserver) {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+    }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  } else {
+    // Fallback if IntersectionObserver is not supported: show all immediately
+    document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+  }
 
   // ── Sticky Nav ──
   const navbar = document.getElementById('navbar');
@@ -95,6 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
           card.style.opacity = '1';
         } else {
           card.style.display = 'none';
+          card.classList.remove('visible'); // Remove visibility so it can animate again
           card.style.opacity = '0';
         }
       });

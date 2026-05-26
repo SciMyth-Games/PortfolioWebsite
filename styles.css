@@ -5,7 +5,8 @@
   --primary:#1a6b5a; --primary2:#22917a; --primary-light:rgba(26,107,90,0.08);
   --primary-glow:rgba(26,107,90,0.15);
   --accent:#e87b35; --accent2:#f59e56; --accent-light:rgba(232,123,53,0.1);
-  --text:#1a1a1a; --text2:#3a3a3a; --muted:#7a7a72; --dim:#a8a8a0;
+  --gold:#e87b35;
+  --text:#1a1a1a; --text2:#3a3a3a; --text3:#7a7a72; --muted:#7a7a72; --dim:#a8a8a0;
   --line:rgba(0,0,0,0.07); --line2:rgba(0,0,0,0.04);
   --card:rgba(255,255,255,0.85); --glass:rgba(255,255,255,0.6);
   --shadow:0 4px 24px rgba(0,0,0,0.06);
@@ -604,7 +605,7 @@ body{
 /* ── PORTFOLIO CATEGORY PANELS ── */
 .portfolio-panels {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   margin: 32px 0 48px;
 }
