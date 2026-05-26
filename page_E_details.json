@@ -1,0 +1,1433 @@
+[
+  {
+    "type": "RASTER",
+    "id": "MAGhbqriKHg",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/961541f9a7387bf965ba2b1c30b42e8f.jpg",
+        "urlDenied": false,
+        "width": 693,
+        "height": 800,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbqriKHg",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/a7ef13661c7518091b4ff2cb6dc2d0db.jpg",
+        "urlDenied": false,
+        "width": 719,
+        "height": 829,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbqriKHg",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/a7ef13661c7518091b4ff2cb6dc2d0db.jpg",
+        "urlDenied": false,
+        "width": 719,
+        "height": 829,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGUBSds2W0",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/cd51d371316f9d2a7b0784f48b9cb7eb.png",
+        "urlDenied": false,
+        "width": 683,
+        "height": 275,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGUBSds2W0",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/cd51d371316f9d2a7b0784f48b9cb7eb.png",
+        "urlDenied": false,
+        "width": 683,
+        "height": 275,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGUBSds2W0",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/cd51d371316f9d2a7b0784f48b9cb7eb.png",
+        "urlDenied": false,
+        "width": 683,
+        "height": 275,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGUBFMgd0Y",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/54702911009f373913d1a624661f5fe1.png",
+        "urlDenied": false,
+        "width": 800,
+        "height": 800,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGUBFMgd0Y",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/f889288a790b2c0bbecdfa86c2a62bc9.png",
+        "urlDenied": false,
+        "width": 1000,
+        "height": 1000,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGUBFMgd0Y",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/f889288a790b2c0bbecdfa86c2a62bc9.png",
+        "urlDenied": false,
+        "width": 1000,
+        "height": 1000,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbtJki3E",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/7ec9220852ff264114b67ff55ef79cdc.jpg",
+        "urlDenied": false,
+        "width": 450,
+        "height": 800,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbtJki3E",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/a5ca9cace560f3d1cb7defdb5b7a0289.jpg",
+        "urlDenied": false,
+        "width": 900,
+        "height": 1600,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbtJki3E",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/4bd2a45d60c5de380991f799071d0e99.jpg",
+        "urlDenied": false,
+        "width": 1080,
+        "height": 1920,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbW6zCiY",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/3f22dd319da46d1d080b46a0a1fc8aff.png",
+        "urlDenied": false,
+        "width": 271,
+        "height": 512,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbW6zCiY",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/3f22dd319da46d1d080b46a0a1fc8aff.png",
+        "urlDenied": false,
+        "width": 271,
+        "height": 512,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbW6zCiY",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/3f22dd319da46d1d080b46a0a1fc8aff.png",
+        "urlDenied": false,
+        "width": 271,
+        "height": 512,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGUBfaOwF4",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/6e5503a14a0bd9dfa5bec6026d934888.png",
+        "urlDenied": false,
+        "width": 800,
+        "height": 800,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGUBfaOwF4",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/fb6609af0c8dabb0b59135fa9b06cc0e.png",
+        "urlDenied": false,
+        "width": 1000,
+        "height": 1000,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGUBfaOwF4",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/fb6609af0c8dabb0b59135fa9b06cc0e.png",
+        "urlDenied": false,
+        "width": 1000,
+        "height": 1000,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbolRBV8",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/5a3018961aafdb97c3a40485b233ecdb.png",
+        "urlDenied": false,
+        "width": 800,
+        "height": 800,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbolRBV8",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/9912d679697e3428466e89f8b5c24772.png",
+        "urlDenied": false,
+        "width": 1000,
+        "height": 1000,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbolRBV8",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/9912d679697e3428466e89f8b5c24772.png",
+        "urlDenied": false,
+        "width": 1000,
+        "height": 1000,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGUBd496G8",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/e804c0bb916c219e18683f3027cb4edf.jpg",
+        "urlDenied": false,
+        "width": 800,
+        "height": 463,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGUBd496G8",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/3dbe037dd164fa326f5d75b4865f47bf.jpg",
+        "urlDenied": false,
+        "width": 1600,
+        "height": 927,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGUBd496G8",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/6ff014cf83e2ed32d46950d4f9adaa7b.jpg",
+        "urlDenied": false,
+        "width": 2400,
+        "height": 1391,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbhEjmsE",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/ad96aa247f35947e658332036670b433.jpg",
+        "urlDenied": false,
+        "width": 600,
+        "height": 800,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbhEjmsE",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/9514e41bda54d9b732a54ab5b048e91a.jpg",
+        "urlDenied": false,
+        "width": 1200,
+        "height": 1600,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbhEjmsE",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/9514e41bda54d9b732a54ab5b048e91a.jpg",
+        "urlDenied": false,
+        "width": 1200,
+        "height": 1600,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbmgce_s",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/d5141aa34a2466e106415d452565e949.png",
+        "urlDenied": false,
+        "width": 800,
+        "height": 800,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbmgce_s",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/d00a9fb02d14e5447d05591d2a630b29.png",
+        "urlDenied": false,
+        "width": 1542,
+        "height": 1542,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbmgce_s",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/d00a9fb02d14e5447d05591d2a630b29.png",
+        "urlDenied": false,
+        "width": 1542,
+        "height": 1542,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbikDwiA",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/1facfc1a07402e53a3e50b1dbbcc5547.jpg",
+        "urlDenied": false,
+        "width": 688,
+        "height": 800,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbikDwiA",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/5ca7eb2f40fd86651f01072483c72c83.jpg",
+        "urlDenied": false,
+        "width": 719,
+        "height": 836,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbikDwiA",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/5ca7eb2f40fd86651f01072483c72c83.jpg",
+        "urlDenied": false,
+        "width": 719,
+        "height": 836,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "VECTOR",
+    "id": "MABw6f2oNj8",
+    "version": 3,
+    "files": [
+      {
+        "url": "_assets/media/0cebe5f72e351df6bc2e8eff84a62943.png",
+        "urlDenied": false,
+        "width": 800,
+        "height": 800,
+        "watermarked": false,
+        "spritesheet": true,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/png"
+      }
+    ],
+    "spritesheetMetadata": {
+      "spritesWide": 3,
+      "spritesHigh": 2,
+      "fullyRecolorable": true,
+      "layers": [
+        {
+          "type": "BACKGROUND_R"
+        },
+        {
+          "type": "BACKGROUND_G"
+        },
+        {
+          "type": "BACKGROUND_B"
+        },
+        {
+          "type": "BACKGROUND_A"
+        },
+        {
+          "type": "RECOLORABLE",
+          "color": "rgb(229, 45, 39)"
+        },
+        {
+          "type": "RECOLORABLE",
+          "color": "rgb(255, 255, 255)"
+        }
+      ]
+    }
+  },
+  {
+    "type": "VECTOR",
+    "id": "MABw6f2oNj8",
+    "version": 3,
+    "files": [
+      {
+        "url": "_assets/media/66bff0ccab74fbb4da3ed1c77f08f002.svg",
+        "urlDenied": false,
+        "width": 575,
+        "height": 575,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/svg+xml"
+      }
+    ],
+    "spritesheetMetadata": {
+      "spritesWide": 3,
+      "spritesHigh": 2,
+      "fullyRecolorable": true,
+      "layers": [
+        {
+          "type": "BACKGROUND_R"
+        },
+        {
+          "type": "BACKGROUND_G"
+        },
+        {
+          "type": "BACKGROUND_B"
+        },
+        {
+          "type": "BACKGROUND_A"
+        },
+        {
+          "type": "RECOLORABLE",
+          "color": "rgb(229, 45, 39)"
+        },
+        {
+          "type": "RECOLORABLE",
+          "color": "rgb(255, 255, 255)"
+        }
+      ]
+    }
+  },
+  {
+    "type": "VECTOR",
+    "id": "MABw6f2oNj8",
+    "version": 3,
+    "files": [
+      {
+        "url": "_assets/media/66bff0ccab74fbb4da3ed1c77f08f002.svg",
+        "urlDenied": false,
+        "width": 575,
+        "height": 575,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/svg+xml"
+      }
+    ],
+    "spritesheetMetadata": {
+      "spritesWide": 3,
+      "spritesHigh": 2,
+      "fullyRecolorable": true,
+      "layers": [
+        {
+          "type": "BACKGROUND_R"
+        },
+        {
+          "type": "BACKGROUND_G"
+        },
+        {
+          "type": "BACKGROUND_B"
+        },
+        {
+          "type": "BACKGROUND_A"
+        },
+        {
+          "type": "RECOLORABLE",
+          "color": "rgb(229, 45, 39)"
+        },
+        {
+          "type": "RECOLORABLE",
+          "color": "rgb(255, 255, 255)"
+        }
+      ]
+    }
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGUBGv5uZM",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/a2770aa300fc6188d23279bf4c22fa42.jpg",
+        "urlDenied": false,
+        "width": 800,
+        "height": 800,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGUBGv5uZM",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/28a655fec8130e06bd36ccb9399cb815.jpg",
+        "urlDenied": false,
+        "width": 1000,
+        "height": 1000,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGUBGv5uZM",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/28a655fec8130e06bd36ccb9399cb815.jpg",
+        "urlDenied": false,
+        "width": 1000,
+        "height": 1000,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGT8dWEL0M",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/d1c5d70c0d310f352cb45da3285a8296.png",
+        "urlDenied": false,
+        "width": 800,
+        "height": 800,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGT8dWEL0M",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/e61155e5a5024fb5a0f670321e8b749d.png",
+        "urlDenied": false,
+        "width": 1600,
+        "height": 1600,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGT8dWEL0M",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/ed7540aae66de759be49ba2e3ab7dce2.png",
+        "urlDenied": false,
+        "width": 2000,
+        "height": 2000,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbeD0TMs",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/d9037aa446c42fbbf686e2be3d26bf14.png",
+        "urlDenied": false,
+        "width": 450,
+        "height": 800,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbeD0TMs",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/278d38886c8bf77fa35afb3b9d1b8658.png",
+        "urlDenied": false,
+        "width": 720,
+        "height": 1280,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbeD0TMs",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/278d38886c8bf77fa35afb3b9d1b8658.png",
+        "urlDenied": false,
+        "width": 720,
+        "height": 1280,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbn7N21Y",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/88492f84b7ee66e88af43d9a46b7e1ac.jpg",
+        "urlDenied": false,
+        "width": 679,
+        "height": 800,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbn7N21Y",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/c8acd845645e87a49a8bbc4ac36cc0e0.jpg",
+        "urlDenied": false,
+        "width": 719,
+        "height": 847,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbn7N21Y",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/c8acd845645e87a49a8bbc4ac36cc0e0.jpg",
+        "urlDenied": false,
+        "width": 719,
+        "height": 847,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "VECTOR",
+    "id": "MAFCI47ft0A",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/ebf8d7a5c124cc7304603b8a068504aa.svg",
+        "urlDenied": false,
+        "width": 428,
+        "height": 429,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/svg+xml"
+      }
+    ]
+  },
+  {
+    "type": "VECTOR",
+    "id": "MAFCI47ft0A",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/ebf8d7a5c124cc7304603b8a068504aa.svg",
+        "urlDenied": false,
+        "width": 428,
+        "height": 429,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/svg+xml"
+      }
+    ]
+  },
+  {
+    "type": "VECTOR",
+    "id": "MAFCI47ft0A",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/ebf8d7a5c124cc7304603b8a068504aa.svg",
+        "urlDenied": false,
+        "width": 428,
+        "height": 429,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/svg+xml"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbsDguTQ",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/88492f84b7ee66e88af43d9a46b7e1ac.jpg",
+        "urlDenied": false,
+        "width": 679,
+        "height": 800,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbsDguTQ",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/c8acd845645e87a49a8bbc4ac36cc0e0.jpg",
+        "urlDenied": false,
+        "width": 719,
+        "height": 847,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbsDguTQ",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/c8acd845645e87a49a8bbc4ac36cc0e0.jpg",
+        "urlDenied": false,
+        "width": 719,
+        "height": 847,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGUBMF83Ic",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/e65efb23ab85aa96d62b286aea7b67a8.jpg",
+        "urlDenied": false,
+        "width": 800,
+        "height": 800,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGUBMF83Ic",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/b56d81b0e977e08618700e84ad22ee57.jpg",
+        "urlDenied": false,
+        "width": 1080,
+        "height": 1080,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGUBMF83Ic",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/b56d81b0e977e08618700e84ad22ee57.jpg",
+        "urlDenied": false,
+        "width": 1080,
+        "height": 1080,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbrleEU8",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/a8d8df228ef03d8372ab083212bd7d2f.png",
+        "urlDenied": false,
+        "width": 600,
+        "height": 800,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbrleEU8",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/93150a9978a0dcae837c972b1bc1492c.png",
+        "urlDenied": false,
+        "width": 1200,
+        "height": 1600,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbrleEU8",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/d07cbec356bb57c3a4f62f01893d8bde.png",
+        "urlDenied": false,
+        "width": 1800,
+        "height": 2400,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbpkUdQE",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/5007eecaacaf762d731a02a01197ec5f.jpg",
+        "urlDenied": false,
+        "width": 676,
+        "height": 800,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbpkUdQE",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/600fca12d5fa96325e28337b9a3ff057.jpg",
+        "urlDenied": false,
+        "width": 719,
+        "height": 850,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbpkUdQE",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/600fca12d5fa96325e28337b9a3ff057.jpg",
+        "urlDenied": false,
+        "width": 719,
+        "height": 850,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbrn3Qzc",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/1facfc1a07402e53a3e50b1dbbcc5547.jpg",
+        "urlDenied": false,
+        "width": 688,
+        "height": 800,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbrn3Qzc",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/5ca7eb2f40fd86651f01072483c72c83.jpg",
+        "urlDenied": false,
+        "width": 719,
+        "height": 836,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbrn3Qzc",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/5ca7eb2f40fd86651f01072483c72c83.jpg",
+        "urlDenied": false,
+        "width": 719,
+        "height": 836,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbSUQ22c",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/6edb7435b7ea54c4f94bfbf3a5563bd4.png",
+        "urlDenied": false,
+        "width": 512,
+        "height": 512,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbSUQ22c",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/6edb7435b7ea54c4f94bfbf3a5563bd4.png",
+        "urlDenied": false,
+        "width": 512,
+        "height": 512,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbSUQ22c",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/6edb7435b7ea54c4f94bfbf3a5563bd4.png",
+        "urlDenied": false,
+        "width": 512,
+        "height": 512,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbhx9PvY",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/7c982148f26f398730fe50b2b81c06ad.png",
+        "urlDenied": false,
+        "width": 800,
+        "height": 800,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbhx9PvY",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/c2a0e43a269d95d93cd66c4615380d0d.png",
+        "urlDenied": false,
+        "width": 1000,
+        "height": 1000,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "RASTER",
+    "id": "MAGhbhx9PvY",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/c2a0e43a269d95d93cd66c4615380d0d.png",
+        "urlDenied": false,
+        "width": 1000,
+        "height": 1000,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  {
+    "type": "VECTOR",
+    "id": "MAFYy5k0tpo",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/a3c030fb407bba9177021c30d62c5ea1.svg",
+        "urlDenied": false,
+        "width": 804,
+        "height": 804,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN",
+        "mimeType": "image/svg+xml"
+      }
+    ]
+  },
+  {
+    "type": "VECTOR",
+    "id": "MAFYy5k0tpo",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/a3c030fb407bba9177021c30d62c5ea1.svg",
+        "urlDenied": false,
+        "width": 804,
+        "height": 804,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_2X",
+        "mimeType": "image/svg+xml"
+      }
+    ]
+  },
+  {
+    "type": "VECTOR",
+    "id": "MAFYy5k0tpo",
+    "version": 1,
+    "files": [
+      {
+        "url": "_assets/media/a3c030fb407bba9177021c30d62c5ea1.svg",
+        "urlDenied": false,
+        "width": 804,
+        "height": 804,
+        "watermarked": false,
+        "spritesheet": false,
+        "recoloring": {},
+        "quality": "SCREEN_3X",
+        "mimeType": "image/svg+xml"
+      }
+    ]
+  }
+]
